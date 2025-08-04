@@ -1,0 +1,371 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Economica", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.fix {
+  clear: both;
+}
+header.home-page {
+  background-image: url(../img/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+header nav {
+  width: 70%;
+  background-color: transparent;
+  margin: auto;
+}
+header .logo {
+  display: inline-block;
+}
+header .logo img {
+  height: 48px;
+  padding: 20px;
+}
+header .links {
+  float: right;
+}
+header .links ul {
+  list-style-type: none;
+}
+header .links ul li {
+  display: inline-block;
+  padding: 30px 15px 0 0;
+}
+header .links ul li a {
+  text-decoration: none;
+}
+header .family {
+  text-align: center;
+  padding: 150px;
+}
+header .family p {
+  padding: 10px;
+}
+header .family h1 {
+  margin-bottom: 15px;
+  font-size: 76px;
+  margin-top: 10px;
+}
+button {
+  padding: 17px;
+  background-color: transparent;
+  border-radius: 7px;
+  border: 0.5px solid;
+  border-color: rgba(255, 255, 255, 0.76);
+  cursor: pointer;
+}
+.special {
+  background-color: #8e7754;
+  margin: 20px 10px 0 0;
+  border: none;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+.rounded {
+  margin-top: 100px;
+  padding: 0;
+  border-radius: 30px;
+  width: 32px;
+  height: 50px;
+}
+main section.about {
+  display: flex;
+  width: 70%;
+  padding: 90px 0;
+  margin: auto;
+}
+
+main .about-img img {
+  height: auto;
+  max-width: 100%;
+}
+main .about-txt {
+  margin: 50px 50px 50px 80px;
+}
+main .about-txt h2 {
+  color: rgba(0, 0, 0, 0.702);
+  margin-bottom: 40px;
+}
+main .about-txt p {
+  color: rgba(0, 0, 0, 0.702);
+}
+main .icons-txt {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+main .icons-txt div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+main .icons-txt img {
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #aaaaaacb;
+}
+main .icons-txt p {
+  margin-left: 10px;
+}
+main section.location-container {
+  background-color: #f8f8f8;
+}
+main .our-location {
+  display: flex;
+  width: 70%;
+  padding: 90px 0;
+  margin: auto;
+}
+
+main .our-location img {
+  height: auto;
+  max-width: 100%;
+}
+main .our-location-txt {
+  margin: 50px 80px 50px 50px;
+}
+main .our-location-txt h2 {
+  color: rgba(0, 0, 0, 0.702);
+  margin-bottom: 40px;
+}
+main .our-location-txt p {
+  color: rgba(0, 0, 0, 0.702);
+}
+main section.our-baking {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+main .our-baking h3 {
+  color: black;
+  margin: 50px 20px 20px 20px;
+}
+main .our-baking p {
+  font-size: 20px;
+  color: #888;
+  margin: 20px 20px 20px 20px;
+}
+
+main .baking-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .baking-images img {
+  max-width: 100%;
+  height: auto;
+}
+main .baking-images h4 {
+  color: black;
+  margin: 20px;
+}
+main .Superior-Breads,
+main .Bagels,
+main .Cookies {
+  width: 27%;
+  margin: 20px;
+}
+main section.contact-information {
+  background-color: #f8f8f8;
+}
+main .information-w {
+  width: 70%;
+  margin: auto;
+  padding: 90px 0;
+  display: flex;
+}
+main .information-txt {
+  margin: 50px 80px 50px 50px;
+}
+main section.contact-information h2 {
+  color: black;
+  margin-bottom: 50px;
+}
+main .information-txt-p {
+  color: #686868;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+main .information-img img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 90px;
+}
+main .information-txt .contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+main .information-txt img {
+  width: 40px;
+  background-color: #8e7754;
+  border-radius: 50%;
+  border: 2px solid #aaaaaacb;
+}
+main .information-txt .pt {
+  color: #686868;
+  margin-left: 10px;
+  font-size: 20px;
+}
+footer {
+  background-color: #403d38;
+}
+footer .footer-w {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+footer .footer-about,
+footer .Why-we-are-special,
+footer .Opening-Hours {
+  width: 20%;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+footer .footer-about h4,
+footer .Why-we-are-special h4,
+footer .Opening-Hours h4 {
+  color: white;
+  margin-bottom: 15px;
+}
+footer .footer-about p,
+footer .Why-we-are-special li,
+footer .Opening-Hours li {
+  color: #ccc;
+  font-size: 14px;
+  line-height: 1.6;
+}
+footer .footer-bottom {
+  background-color: #353330;
+  text-align: center;
+  padding: 30px 0;
+}
+footer .footer-bottom p {
+  color: #777;
+  font-size: 15px;
+  margin-top: 5px;
+}
+footer .last-logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer .footer-bottom ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+footer .footer-bottom ul img {
+  width: 40px;
+  border-radius: 50%;
+  background-color: #484540;
+}
+footer .footer-bottom ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+@media (max-width: 768px) {
+  header nav,
+  main section,
+  footer .footer-w {
+    width: 90%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header .links {
+    float: none;
+    margin-top: 20px;
+  }
+  header .links ul li {
+    padding: 10px 10px;
+  }
+
+  main section.about,
+  main .our-location,
+  main .information-w {
+    flex-direction: column;
+  }
+
+  main .about-img,
+  main .our-location-img,
+  main .information-img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  main .about-txt,
+  main .our-location-txt,
+  main .information-txt {
+    margin: 20px 0;
+  }
+
+  main .baking-images {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main .Superior-Breads,
+  main .Bagels,
+  main .Cookies {
+    width: 80%;
+  }
+
+  footer .footer-about,
+  footer .Why-we-are-special,
+  footer .Opening-Hours {
+    width: 80%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  header .family h1 {
+    font-size: 48px;
+  }
+
+  header .family p {
+    font-size: 14px;
+  }
+
+  button {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  main .about-txt h2,
+  main .our-location-txt h2,
+  main section.contact-information h2 {
+    font-size: 28px;
+  }
+
+  main .information-txt-p,
+  main .information-txt .pt {
+    font-size: 16px;
+  }
+
+  footer .footer-bottom p {
+    font-size: 12px;
+  }
+
+  footer .footer-bottom ul img {
+    width: 30px;
+  }
+}
+
