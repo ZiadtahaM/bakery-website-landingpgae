@@ -29,8 +29,6 @@ BoulangerieElite implements standard frontend practices for high-performance sta
 1. Clone the repository.
 2. Open index.html in a web browser.
 
-Live Demo: https://ziadtaham.github.io/bakery-website-landingpgae/
-
 ---
 
 Professional digital storefront for elite artisanal businesses.
